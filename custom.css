@@ -1,0 +1,335 @@
+@font-face {
+  font-family: "Gilroy Extra Bold";
+  src: url("https://sai-fonts.s3.us-east-2.amazonaws.com/Radomir+Tinkov+-+Gilroy-ExtraBold.otf") format("opentype");
+}
+
+blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {
+  margin:0;
+  padding:0
+}
+
+input,select,textarea {
+  font-family:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+  font-size:100%
+}
+
+button,input,select,textarea {
+	border:0
+}
+
+:focus,a {
+  -moz-outline-style:none;
+  outline:none!important
+}
+
+a {
+  color:#000;
+  text-decoration:none
+}
+
+button {
+  background-color:transparent;
+  padding:0;
+  border:none
+}
+
+* {
+	box-sizing:border-box
+}
+
+body {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:400;
+  font-size:18px;
+  line-height:1.67;
+  background:#fff;
+  color:#171717;
+  margin:0;
+  padding:0;
+  position:relative
+}
+
+#app_body {
+	max-width:none
+}
+
+#wrapper #main {
+  max-width:none;
+  padding:0 40px!important
+}
+#wrapper #main h1 {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:32px;
+  line-height:1.06;
+  text-align:center
+}
+@media (min-width:768px) {
+  #wrapper #main h1 {
+    font-size:32px
+  }
+}
+
+#wrapper #main #header {
+    padding:0;text-align:center
+}
+
+#wrapper #main #logo {
+    margin: 50px auto;
+    text-align: center;
+}
+#wrapper #main #submit_buttons {
+	text-align:center
+}
+#wrapper #main .heading {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:32px;
+  line-height:1.06
+}
+@media (min-width:768px) {
+	#wrapper #main .heading {
+	  font-size:32px
+  }
+}
+#wrapper #main p {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:400;
+  color:#171717;
+  font-size:18px;
+  line-height:1.67;
+  margin-bottom:30px
+}
+@media (min-width:768px) {
+	#wrapper #main p {
+	  font-size:18px
+  }
+}
+
+#wrapper #main a {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  background:linear-gradient(180deg,transparent 0,transparent 65%,#fe7eb9 0,#fe7eb9);
+}
+#wrapper #main a:hover {
+	background:none
+}
+
+#wrapper #main .button {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:30px;
+  letter-spacing:.3px;
+  line-height:.92;
+  padding:2px 18px 4px;
+  background-color:#fe7eb9;
+  border:4px solid #fe7eb9;
+  border-radius:0;
+  cursor:pointer;
+  display:inline-block;
+  line-height:1;
+  position:relative;
+  text-transform:uppercase;
+  transition:all .15s linear;
+  -webkit-appearance:none;
+  margin-bottom:30px;
+  text-shadow:none
+}
+@media (min-width:768px) {
+	#wrapper #main .button {
+	  font-size:32px
+  }
+}
+#wrapper #main .button:hover:not(:disabled) {
+  background-color:transparent;
+  color:#232444
+}
+#wrapper #main .button:disabled {
+  opacity:.5;
+  cursor:not-allowed
+}
+
+#wrapper #main .attach-or-paste .link-container a,#wrapper #main .select2-choice,#wrapper #main .select2-container a {
+	background:none
+}
+#wrapper #main .attach-or-paste .link-container a {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:30px;
+  letter-spacing:.3px;
+  line-height:.92;
+  padding:2px 18px 4px;
+  background-color:#fe7eb9;
+  border:4px solid #fe7eb9;
+  border-radius:0;
+  cursor:pointer;
+  display:inline-block;
+  line-height:1;
+  position:relative;
+  text-transform:uppercase;
+  transition:all .15s linear;
+  -webkit-appearance:none;
+  background-image:none;
+  border:none;
+  color:#232444!important;
+  font-family:Gilroy Extra Bold!important;
+  text-shadow:none
+}
+@media (min-width:768px) {
+	#wrapper #main .attach-or-paste .link-container a {
+	  font-size:32px
+  }
+}
+#wrapper #main .attach-or-paste .link-container a:hover:not(:disabled) {
+  background-color:transparent;
+  color:#232444
+}
+#wrapper #main .attach-or-paste .link-container a:disabled {
+  opacity:.5;
+  cursor:not-allowed
+}
+#wrapper #main .attach-or-paste .link-container a:hover {
+	text-decoration:none
+}
+#wrapper #main .attach-or-paste .link-container a:after {
+	content:""
+}
+
+#wrapper #main .app-title {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:52px;
+  letter-spacing:.3px;
+  line-height:.92;
+  margin:50px 0 0
+}
+@media (min-width:768px) {
+	#wrapper #main .app-title {
+	  font-size:60px
+  }
+}
+
+#wrapper #main .company-name {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:400;
+  color:#171717;
+  font-size:24px;
+  line-height:1.34
+}
+@media (min-width:768px) {
+	#wrapper #main .company-name {
+	  font-size:24px
+  }
+}
+
+#wrapper #main #board_title {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:52px;
+  letter-spacing:.3px;
+  line-height:.92;
+  margin:50px 0
+}
+@media (min-width:768px) {
+  #wrapper #main #board_title {
+    font-size:60px
+  }
+}
+
+#wrapper #main .opening a {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:700;
+  color:#232444;
+  font-size:32px;
+  line-height:1.06;
+  background:linear-gradient(180deg,transparent 0,transparent 65%,#fe7eb9 0,#fe7eb9);
+}
+@media (min-width:768px) {
+  #wrapper #main .opening a {
+    font-size:32px
+  }
+}
+
+#wrapper #main .opening a:hover {
+  background:none;text-decoration:none
+}
+
+#wrapper #main .opening .location {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:400;
+  color:#171717;
+  font-size:18px;
+  line-height:1.67
+}
+@media (min-width:768px) {
+  #wrapper #main .opening .location {
+    font-size:18px
+  }
+}
+
+#wrapper #main #application {
+  background-color:transparent;
+  max-width:none;
+  padding:0
+}
+
+#wrapper #main #custom_fields div.field label,#wrapper #main #eeoc_fields div.field label,#wrapper #main #main_fields div.field label {
+  display:block;
+  font-weight:700;
+  font-size:17px;
+  margin:20px 0 0;
+  text-align:left;
+  width:100%
+}
+
+#wrapper #main #custom_fields div.field .select2-container-multi,#wrapper #main #custom_fields div.field .text-field,#wrapper #main #custom_fields div.field input[type=text],#wrapper #main #custom_fields div.field textarea,#wrapper #main #demographic_questions div.field .text-field,#wrapper #main #demographic_questions div.field input[type=text],#wrapper #main #demographic_questions div.field textarea,#wrapper #main #eeoc_fields div.field .text-field,#wrapper #main #eeoc_fields div.field input[type=text],#wrapper #main #eeoc_fields div.field textarea,#wrapper #main #main_fields div.field .text-field,#wrapper #main #main_fields div.field input[type=text],#wrapper #main #main_fields div.field textarea {
+  font-family:Gilroy Extra Bold;
+  font-style:normal;
+  font-weight:400;
+  border:2px solid #232444;
+  border-radius:0;
+  color:#232444;
+  font-size:16px;
+  margin-bottom:15px;
+  padding:10px;
+  width:100%
+}
+@media (min-width:1024px) {
+	#wrapper #main #custom_fields div.field .select2-container-multi,#wrapper #main #custom_fields div.field .text-field,#wrapper #main #custom_fields div.field input[type=text],#wrapper #main #custom_fields div.field textarea,#wrapper #main #demographic_questions div.field .text-field,#wrapper #main #demographic_questions div.field input[type=text],#wrapper #main #demographic_questions div.field textarea,#wrapper #main #eeoc_fields div.field .text-field,#wrapper #main #eeoc_fields div.field input[type=text],#wrapper #main #eeoc_fields div.field textarea,#wrapper #main #main_fields div.field .text-field,#wrapper #main #main_fields div.field input[type=text],#wrapper #main #main_fields div.field textarea {
+    border:2px solid #232444;
+    padding:12px
+  }
+}
+#wrapper #main #custom_fields div.field .select2-container-multi:focus,#wrapper #main #custom_fields div.field .text-field:focus,#wrapper #main #custom_fields div.field input[type=text]:focus,#wrapper #main #custom_fields div.field textarea:focus,#wrapper #main #demographic_questions div.field .text-field:focus,#wrapper #main #demographic_questions div.field input[type=text]:focus,#wrapper #main #demographic_questions div.field textarea:focus,#wrapper #main #eeoc_fields div.field .text-field:focus,#wrapper #main #eeoc_fields div.field input[type=text]:focus,#wrapper #main #eeoc_fields div.field textarea:focus,#wrapper #main #main_fields div.field .text-field:focus,#wrapper #main #main_fields div.field input[type=text]:focus,#wrapper #main #main_fields div.field textarea:focus {
+  background:rgba(254,126,185,.4);
+  outline:none
+}
+#eeoc_fields div.field textarea.paste,#main_fields div.field textarea.paste {
+	margin:20px 0 0
+}
+
+#footer {
+  background-color:transparent;
+  border:none;
+  margin-top:0
+}
